@@ -28,6 +28,6 @@
   "scripts": {
     "dev": "nodemon ./src/server.js",
     "build": "sucrase ./src -d ./dist --transforms imports",
-    "start": "node -r dotenv/config ./dist/index.js"
+    "start": "node -r dotenv/config ./dist/server.js"
   }
 }
